@@ -1,0 +1,46 @@
+{
+  "name": "@rynia/local-first-kernel",
+  "version": "1.0.0",
+  "description": "A tiny, deterministic application kernel for local-first apps — event-log, schema migrations, undo/redo & offline outbox with zero dependencies.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node examples/demo.js"
+  },
+  "keywords": [
+    "local-first",
+    "offline-first",
+    "event-sourcing",
+    "state-machine",
+    "migrations",
+    "undo-redo",
+    "outbox",
+    "react-native",
+    "expo",
+    "typescript",
+    "zero-dependencies"
+  ],
+  "author": "Muharrem Özmen (@Rynia) <ryniastudios@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rynia/local-first-kernel.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rynia/local-first-kernel/issues"
+  },
+  "homepage": "https://github.com/Rynia/local-first-kernel#readme"
+}
