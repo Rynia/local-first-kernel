@@ -143,6 +143,25 @@ for (const item of pending) {
 
 ---
 
+## 🌐 The Rynia Software Ecosystem
+
+Part of the deterministic, local-first engineering suite crafted by [@Rynia](https://github.com/Rynia):
+
+| Package / Project | Role | Version |
+| :--- | :--- | :--- |
+| [**local-first-kernel**](https://github.com/Rynia/local-first-kernel) | Append-only reactive event micro-kernel & offline sync | `v1.0.0` |
+| [**expo-release-guard**](https://github.com/Rynia/expo-release-guard) | Pre-flight zero-rejection store compliance & privacy manifest CLI | `v1.0.0` |
+| [**receipt-renderer**](https://github.com/Rynia/receipt-renderer) | Zero-dependency 9:16 thermal receipt AST & dual SVG/ASCII renderer | `v1.0.0` |
+| [**KALANLA**](https://github.com/Rynia/KALANLA) | Smart kitchen pantry OS powered by this ecosystem | `Live Beta` |
+
+---
+
+## 📜 Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md) for detailed version history and architectural notes.
+
+---
+
 ## 📄 License & Studio
 
 * **License:** MIT © 2026 [Muharrem Özmen (@Rynia)](https://github.com/Rynia)
